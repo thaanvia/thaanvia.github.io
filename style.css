@@ -39,3 +39,26 @@ a:hover {
 .btn:hover {
     background-color: navy;
 }
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.caption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #333;
+}
